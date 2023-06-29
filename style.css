@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,700");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.375em;
+  color: #3b3b3b;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV BAR */
+.navbar-inverse {
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand img {
+  max-width: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand img {
+    max-width: 50px;
+  }
+}
+
+.navbar-inverse .navbar-nav nav-link {
+  color: #f6f6f6;
+}
+
+/* COVER PAGE */
+
+html,
+body {
+  height: 100%;
+}
+
+.cover,
+.bg {
+  height: 100%;
+  width: 100%;
+}
+
+.bg {
+  background: linear-gradient(rgba(42, 58, 63, 0.8), rgba(42, 58, 63, 0.8)),
+    url("https://i.imgur.com/N1cIgaV.gif");
+  background-size: cover;
+  background-position: 75%;
+}
+
+.cover {
+  color: #f6f6f6;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.landing-page--message {
+  text-align: center;
+  padding: 0 10%;
+}
+
+.landing-page--message h1 {
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+
+@media only screen and (min-width: 768px) {
+  .landing-page--message h1 {
+    font-size: 70px;
+    letter-spacing: -3px;
+  }
+}
+
+.landing-page--message .btn-outline-danger {
+  color: white;
+  border-width: 5px;
+}
+
+.landing-page--message a:link,
+.landing-page--message a:hover,
+.landing-page--message a:visited,
+.landing-page--message a:active {
+  color: #f6f6f6;
+}
+
+.landing-page--message a:hover {
+  text-decoration: none;
+}
+
+/* SERVICES PAGE */
+
+.dev {
+  border-top: 5px solid #ec5552;
+  border-bottom: 5px solid #ec5552;
+  border-left: 10px solid #ec5552;
+  border-right: 10px solid #ec5552;
+  padding: 5%;
+  width: inherit;
+}
+
+.dev h1 {
+  font-weight: lighter;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.dev h1 strong {
+  color: #ec5552;
+  font-weight: 700;
+}
+
+#first-page {
+  border-top: 10px solid #ec5552;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Exo+2|Yatra+One");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+.bg_color {
+  background: #85c1e9;
+}
+
+body {
+  background: #85c1e9;
+}
+
+.wrapper {
+  background: #85c1e9;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: "Yatra One", cursive;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.F5A_students {
+  width: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Student p {
+  color: red;
+}
+.F5A_students .Student {
+  width: 250px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10px;
+}
+
+.F5A_students .Student .student_img {
+  background: #e9e5fa;
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.Graduated {
+  background: #ffc60a !important;
+}
+.F5A_students .Student .student_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+}
+
+.F5A_students .Student h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.F5A_students .Student span {
+  font-size: 10px;
+}
+
+.F5A_students .Student p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.58;
+}
+.F5A_students .Student .student_img .social_media {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0, 0, 0, 0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: all 0.5s ease;
+}
+
+.F5A_students .Student .student_img .social_media .item {
+  margin: 0 10px;
+}
+
+.F5A_students .Student .student_img .social_media .fab {
+  color: #85c1e9;
+  font-size: 20px;
+}
+
+.F5A_students .Student .student_img:hover .social_media {
+  transform: scale(1);
+}
+
+#topic h1 {
+  color: white;
+  font-weight: 1000;
+  font-size: 4.8em;
+  text-shadow: 0 2px 1px #28d8f8, -1px 3px 1px #25d8fc, -2px 5px 1px #1bd8fe;
+}
+@import url("https://fonts.googleapis.com/css?family=Exo+2|Yatra+One");
+
+.wrapper {
+  background: #85c1e9;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: "Yatra One", cursive;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.include {
+  width: 100%; /* 确保容器元素占满整个屏幕 */
+  margin: 0 auto; /* 居中对齐 */
+  box-sizing: border-box; /* 让元素的宽度和高度包括边框和内边距 */
+  padding: 0;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
